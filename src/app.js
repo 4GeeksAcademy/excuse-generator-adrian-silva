@@ -14,7 +14,7 @@ function excuseGenerator() {
     "when I was sleeping",
     "while I was exercising",
     "during my lunch",
-    "while I was praying"
+    "while I was praying",
   ];
 
   let sentencias = [who, action, what, when];
@@ -29,11 +29,6 @@ function excuseGenerator() {
   }
   return phrase;
 }
-
-// function onLoad(){
-//     var excusa = document.getElementById('excuse');
-//     excusa.innerHTML = excuseGenerator();
-// }
 
 window.onload = function() {
   let excusa = excuseGenerator();
